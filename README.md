@@ -1,2 +1,49 @@
-# Virtual-Interior-Design-Retrieval-Model
-An virtual interior design system that helps users find the most relevant home and bathroom designs based on their text descriptions. It provides an easy-to-use interface for exploring different styles and layouts.
+# Virtual Interior Design Retrieval Model
+
+## Overview
+The Virtual Interior Designer is an AI-powered image retrieval system that helps users find the most relevant home and bathroom designs based on their textual descriptions. The model takes a user input description and retrieves the top 5 most relevant images from a pretrained dataset of interior design images.
+
+## Features
+- **AI-based Image Retrieval**: Uses deep learning techniques to find the most suitable interior designs based on text input.
+- **Pretrained Model with Fine-tuning**: Utilizes a combination of BLIP for image captioning, Universal Sentence Encoder (USE) for text vectorization, a CNN trained using TensorFlow, and KNN for retrieval.
+- **User-friendly Interface**: Deployed using Streamlit for easy interaction.
+
+## Technologies Used
+- **Python**: Core language for model development
+- **TensorFlow**: CNN model training and implementation
+- **BLIP (Bootstrapped Language-Image Pretraining)**: Used for generating image descriptions
+- **Universal Sentence Encoder (USE)**: Converts text descriptions into vector representations
+- **K-Nearest Neighbors (KNN)**: Used for similarity-based image retrieval
+- **Streamlit**: Frontend deployment
+- **VS Code**: Development environment
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/virtual-interior-designer.git
+   cd virtual-interior-designer
+   ```
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Usage
+1. Enter a description of your desired interior design (e.g., "modern living room with wooden flooring").
+2. The system retrieves and displays the top 5 most relevant images from the dataset.
+3. Browse and select your preferred design.
+
+## Future Enhancements
+- Utilize AI-driven retrieval techniques for enhanced accuracy and relevance
+- Expand the dataset with a diverse range of interior designs, including different styles and layouts
+- Integrate advanced deep learning models for better accuracy
+- Implement a user authentication system for personalized recommendations
+- Enable real-time feedback to refine search results
+
+## Contributing
+Contributions are welcome! Feel free to submit pull requests or open issues for suggestions.
+
