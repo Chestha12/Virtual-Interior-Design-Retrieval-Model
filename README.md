@@ -1,7 +1,7 @@
 # Virtual Interior Design Retrieval Model
 
 ## Overview
-The Virtual Interior Designer is an AI-powered image retrieval system that helps users find the most relevant home and bathroom designs based on their textual descriptions. The model takes a user input description and retrieves the top 5 most relevant images from a pretrained dataset of interior design images.
+The Virtual Interior Designer is an AI-powered image retrieval system that helps users find the most relevant Bedroom, Bathroom, Kitchen, Dinning, Livingroom designs based on their textual descriptions. The model takes a user input description and retrieves the top 5 most relevant images from a pretrained dataset of interior design images.
 
 ## Features
 - **AI-based Image Retrieval**: Uses deep learning techniques to find the most suitable interior designs based on text input.
